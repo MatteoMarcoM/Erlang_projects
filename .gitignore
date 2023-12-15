@@ -1,2 +1,6 @@
+# ignora i file con estensione .beam
 *.beam
+# NB non creare dei file Mnesia.estensione
+# (perche' vengono ignorati da git)
+# ignoro i folder di Mnesia
 /*/Mnesia.*
